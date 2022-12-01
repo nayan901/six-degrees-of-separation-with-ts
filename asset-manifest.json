@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/six-degrees-of-separation-with-ts/static/css/main.eb5e74a5.css",
+    "main.js": "/six-degrees-of-separation-with-ts/static/js/main.1bacc368.js",
+    "static/js/787.0420ccf9.chunk.js": "/six-degrees-of-separation-with-ts/static/js/787.0420ccf9.chunk.js",
+    "index.html": "/six-degrees-of-separation-with-ts/index.html",
+    "main.eb5e74a5.css.map": "/six-degrees-of-separation-with-ts/static/css/main.eb5e74a5.css.map",
+    "main.1bacc368.js.map": "/six-degrees-of-separation-with-ts/static/js/main.1bacc368.js.map",
+    "787.0420ccf9.chunk.js.map": "/six-degrees-of-separation-with-ts/static/js/787.0420ccf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb5e74a5.css",
+    "static/js/main.1bacc368.js"
+  ]
+}
