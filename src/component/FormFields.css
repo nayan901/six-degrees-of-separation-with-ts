@@ -1,0 +1,21 @@
+.input-field{
+    width: 100%;
+}
+
+.form-label{
+    margin-right: 10px;
+}
+
+.custom-input{
+    padding: 12px !important;
+}
+
+.form-select{
+    padding: 12px !important;
+}
+
+@media (max-width:575px) {
+    .select-custom {
+        margin-bottom: 10px;
+    }
+}

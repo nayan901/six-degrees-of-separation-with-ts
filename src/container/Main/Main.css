@@ -1,0 +1,111 @@
+.main-container{
+    width: 100%;
+    background: linear-gradient(135deg, #e2aebd 50%,#fff 100%);
+    min-height:100vh;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.form-content{
+    margin: 30px auto;
+}
+
+.add-people{
+    width: 100%;
+    padding: 60px 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.banner{
+   
+    width: 100%;
+}
+
+.set-relation{
+    width: 100%;
+    padding: 60px 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.add-people-field,
+.relation-fields{
+    margin-bottom: 20px;
+}
+
+.head{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.form-btn{
+    width: 150px;
+    margin-left: 10px;
+}
+
+.result-container{
+    /* width: 650px; */
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+
+.box{
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #f7f7f7;
+    margin-top: 0.6rem;
+}
+
+.result-box .result-row:not(:last-child){
+    border-bottom: 1px solid #c0bfbf;
+    padding-bottom: 10px;
+}
+.result-box .person{
+    display: flex;
+    align-items: center;
+}
+
+.result-box .person:last-child span{
+    display: none;
+}
+
+.how-related{
+    width: 100%;
+    padding: 60px 0;
+    max-width: 750px !important;
+    margin: 0 auto;
+}
+
+@media (max-width:979px){
+    .main-container{
+        height: auto;
+    }
+    .head{
+        font-size: 32px;
+    }
+    .add-people,
+    .set-relation{
+        padding: 30px 0;
+    }
+    .result-container{
+        width: auto;
+    }
+}
+
+@media (max-width:575px){
+    .add-people,
+    .set-relation{
+        padding: 15px 0;
+    }
+
+    .how-related{
+        padding: 20px 0;
+    }
+    .result-container{
+        width: auto;
+    }
+}
